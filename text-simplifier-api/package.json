@@ -1,0 +1,21 @@
+{
+    "name": "text-simplifier-api",
+    "version": "1.0.0",
+    "description": "API for text simplification using Claude",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "handlebars": "^4.7.8",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.9.2",
+        "nodemailer": "^6.9.16"
+    }
+}
